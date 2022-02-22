@@ -22,10 +22,16 @@ Staking APR is calculated at the end of each epoch and Aether is not set aside f
 A sigmoid function is used to determine the APR each epoch, if the treasury is under-collateralizing the market cap of Aether, no rewards will be issued.
 
 ![alt text](https://github.com/Riley-Kilgore/AetherDAO-Documents/blob/main/images/i1.png)
+Here the variable m is used to denote the maximum APR in terms of percentage, and this is likely to go to multiple decimal places.
+The variable k is used to 'stretch out' the graph or increase the collateral ratio required to reach the maximum APR assigned by variable m.
 ![alt text](https://github.com/Riley-Kilgore/AetherDAO-Documents/blob/main/images/i2.png)
 
 ## DAO Profit: Purchase / Stake / Sell
-Coming soon.
+This part is relatively straight forward, whenever the DAOs collateral ratio is below 90% for example, we will purchase Aether tokens off of the market and stake them until the DAO has a collateral ratio of 90% or above.
+
+In addition the DAO will sell off its Aether tokens to the liquidity pool(s) integrated with the DAO assuming that the collateral ratio reaches 120% for example.
+
+This results in the DAO profiting from volatility in the market relative the the intrinsic or backed value of the token supply.
 
 ## DAO Profit: DeFi
 At the most basic level, the DAO will profit from having it's treasury contents staked to a pool that can be decided upon by the DAO. In addition to this, the DAO will seek to maximize yield and do so in a way that maximizes security of members - DeFi will be integrated directly where possible as opposed to leveraging multi-sigs.
