@@ -21,6 +21,9 @@ Staking APR is calculated at the end of each epoch and Aether is not set aside f
 
 A sigmoid function is used to determine the APR each epoch, if the treasury is under-collateralizing the market cap of Aether, no rewards will be issued.
 
+![alt text](https://github.com/Riley-Kilgore/AetherDAO-Documents/blob/main/images/i1.png)
+![alt text](https://github.com/Riley-Kilgore/AetherDAO-Documents/blob/main/images/i2.png)
+
 ## DAO Profit: Purchase / Stake / Sell
 Coming soon.
 
